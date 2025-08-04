@@ -57,7 +57,7 @@ pnpm dev  # Runs API & WebSocket on localhost:4000
 
 ---
 
-### Frontend
+## Frontend
 ```bash
 cd apps/web
 pnpm install
