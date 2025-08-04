@@ -1,0 +1,17 @@
+{
+  "name": "orchestrai",
+  "version": "0.0.1",
+  "description": "Agentic AI workflow builder – August 2025",
+  "scripts": {
+    "dev": "pnpm -r run dev",
+    "build": "pnpm -r run build",
+    "lint": "pnpm -r run lint",
+    "typecheck": "pnpm -r run typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.2",
+    "prettier": "^3.3.3",
+    "turbo": "^2.0.14"
+  }
+}

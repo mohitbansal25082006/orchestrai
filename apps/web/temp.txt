@@ -1,0 +1,24 @@
+import { useCallback } from 'react';
+import { addEdge, useNodesState, useEdgesState } from 'reactflow';
+
+const onDrop = useCallback(
+  (event: React.DragEvent) => {
+    event.preventDefault();
+    const type = event.dataTransfer.getData('application/reactflow');
+    if (!type) return;
+    const newNode = {
+      id: Date.now().toString(),
+      type,
+      position: { x: event.clientX - 100, y: event.clientY - 50 },
+      data: { label: ${type} node },
+    };
+    setNodes(nds => nds.concat(newNode));
+  },
+  [setNodes]
+);
+
+const onDragOver = useCallback((e: React.DragEvent) => {
+  e.preventDefault();
+  e.dataTransfer.dropEffect = 'move';
+}, []);
+import WorkflowToolbar from './WorkflowToolbar';

@@ -1,0 +1,9 @@
+[
+  { "id": "llm", "label": "LLM", "category": "AI" },
+  { "id": "summarizer", "label": "Summarizer", "category": "AI" },
+  { "id": "translator", "label": "Translator", "category": "AI" },
+  { "id": "web-scraper", "label": "Web Scraper", "category": "Action" },
+  { "id": "emailer", "label": "Emailer", "category": "Action" },
+  { "id": "excel-reader", "label": "Excel Reader", "category": "IO" },
+  { "id": "csv-writer", "label": "CSV Writer", "category": "IO" }
+]

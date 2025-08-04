@@ -1,0 +1,6 @@
+        onDrop={onDrop}
+        onDragOver={onDragOver}
+      <WorkflowToolbar />
+    </aside>
+  );
+}
