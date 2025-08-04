@@ -53,7 +53,7 @@ Built for **developers, data analysts, and AI enthusiasts** who want **full cont
 ```bash
 cd apps/api
 pnpm install
-pnpm dev  # Runs API & WebSocket on localhost:4000
+pnpm dev  # Runs API & WebSocket on localhost:4000```
 
 ---
 
