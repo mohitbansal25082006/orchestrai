@@ -42,34 +42,6 @@ Built for **developers, data analysts, and AI enthusiasts** who want **full cont
 
 ---
 
-## 🗂️ Project Structure
-
-orchestrai/
-├── apps/
-│ ├── api/ # Backend API (Node + Express + Prisma)
-│ │ ├── src/
-│ │ │ ├── lib/
-│ │ │ │ └── executor.ts # Maps node types → real OpenAI/LLM calls
-│ │ │ ├── socket.ts # WebSocket server for real-time sync
-│ │ │ └── routes/ # API route handlers (e.g., workflows, run logic)
-│ │ ├── prisma/
-│ │ │ └── schema.prisma # Database schema for Postgres
-│ │ └── package.json # Backend package config (build/start scripts)
-│ └── web/ # Frontend (Next.js + React Flow)
-│ ├── src/
-│ │ ├── lib/
-│ │ │ └── useSocket.ts # Client hook for real-time sync
-│ │ ├── components/
-│ │ │ └── workflow/
-│ │ │ └── NodeConfigSheet.tsx # Prompt editor + delete UI
-│ │ └── config/
-│ │ └── nodes.json # Node definitions for palette
-│ └── package.json # Frontend package config
-├── README.md # This file
-└── .gitignore # Ignored files (e.g., .env, node_modules)
-
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend**: Next.js 15, React Flow 11, Tailwind CSS v4, shadcn/ui, Sonner  
@@ -88,13 +60,17 @@ cd apps/api
 pnpm install
 pnpm dev  # Runs API & WebSocket on localhost:4000
 
+---
+
 ### Frontend
 ```bash
 cd apps/web
 pnpm install
 pnpm dev  # Runs UI on localhost:3000
 
-# 🔐 Environment Variables (example template)
+---
+
+### 🔐 Environment Variables (example template)
 DATABASE_URL=postgresql://<user>:<password>@...:5432/postgres
 REDIS_URL=<your-remote-redis-endpoint>
 OPENAI_API_KEY=sk-xxxxxxx
