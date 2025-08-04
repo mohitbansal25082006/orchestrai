@@ -7,7 +7,7 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="./preview1.png" alt="OrchestrAI Preview" width="800"/>
+  <img src="./preview.png" alt="OrchestrAI Preview" width="800"/>
 </p>
 
 
