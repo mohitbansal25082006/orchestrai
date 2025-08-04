@@ -1,4 +1,4 @@
-# ⚡ OrchestrAI – AI Workflow Builder (v0.9 Pre-Image-Gen)
+# ⚡ OrchestrAI – AI Workflow Builder
 
 > **No-code, drag-and-drop AI pipeline builder** with real-time collaboration, powered by **Next.js 15**, **React Flow**, **Postgres**, **Redis**, and **OpenAI**.
 
@@ -6,15 +6,10 @@
 
 ## 📸 Preview
 
-> *(Replace with real screenshots in repo at `preview1.png` and `preview2.png`)*
-
 <p align="center">
-  <img src="preview1.png" alt="Preview 1" width="800"/>
+  <img src="./preview1.png" alt="OrchestrAI Preview" width="800"/>
 </p>
 
-<p align="center">
-  <img src="preview2.png" alt="Preview 2" width="800"/>
-</p>
 
 ---
 
