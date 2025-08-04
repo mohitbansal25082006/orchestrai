@@ -47,24 +47,31 @@ Built for **developers, data analysts, and AI enthusiasts** who want **full cont
 
 ---
 
-# Quick Start (Local)
+## 🚀 Quick Start (Local)
+
 
 ### Backend
+
+```bash
 cd apps/api
 pnpm install
-pnpm dev # Runs API & WebSocket on localhost:4000
+pnpm dev  # Runs API & WebSocket on localhost:4000
 
 ---
 
-### Frontend
+## Frontend
+
+```bash
 cd apps/web
 pnpm install
-pnpm dev # Runs UI on localhost:3000
+pnpm dev  # Runs UI on localhost:3000
 
 ---
 
-### Environment Variables (example template)
+### 🔐 Environment Variables (example template)
+
 DATABASE_URL=postgresql://<user>:<password>@...:5432/postgres
 REDIS_URL=<your-remote-redis-endpoint>
 OPENAI_API_KEY=sk-xxxxxxx
-PORT=4000 # optional, platform usually injects its own
+PORT=4000  # optional, platform usually injects its own
+
